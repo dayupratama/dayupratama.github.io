@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container2 {
+    margin-top: 6%;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right ul{
+    display: flex;
+}
+.right ul li {
+    list-style: none;
+    margin-left: 39px;
+}
+
+.right ul li a{
+    text-decoration: none;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+    color: #F2F2F2;
+}
+
+.heading1 {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 0%;
+    /* identical to box height, or 54px */
+    margin-top: 7%;
+    color: #F2F2F2;
+}
+
+.heading2 {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 110%;
+    /* or 51px */
+    width: 648px;
+    color: #F2F2F2;
+}
+
+.bodytext{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 190%;
+    /* or 30px */
+    width: 525px;
+    margin-bottom: 8%;
+    color: #A6A6A6;
+
+}
+.kiri img{
+    margin-right: 20px;
+}
+
+.kanan img{
+    margin-right: 10%;
+}
+
+.container2 .kiri{
+    width: 70%;
+    float: left;
+}
+
+.container2 .kanan{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    width: 30%;
+}
